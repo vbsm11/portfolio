@@ -14,15 +14,6 @@
     align-items: center;
 }
 
-.button {
-    background-color: grey;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    width: 90px;
-    height: 25px;
-}
-
 .title {
     background-color: grey;
     margin-left: 10px;
