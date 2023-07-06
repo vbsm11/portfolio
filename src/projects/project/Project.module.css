@@ -1,14 +1,33 @@
-.skill {
-    width: 300px;
+.project {
+    width: 400px;
     background-color: lightsteelblue;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
-.icon {
-    height: 60px;
-    width: 60px;
+.cover {
+    width: 100%;
+    height: 280px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
     background-color: grey;
+    text-align: center;
+    width: 90px;
+    height: 25px;
+}
+
+.title {
+    background-color: grey;
+    margin-left: 10px;
+}
+
+.description {
+    background-color: grey;
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
