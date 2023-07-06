@@ -11,9 +11,7 @@ export function Project(props: ProjectPropsType) {
     return (
         <div className={s.project}>
             <div className={s.cover}>
-                <div className={s.button}>
-                    <a href="">View</a>
-                </div>
+                <a className={s.button} href="">View</a>
             </div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>
